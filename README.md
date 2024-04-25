@@ -11,7 +11,6 @@ GuanaNet es una plataforma de IA en línea que conecta estudiantes con oportunid
 - [Acceso al proyecto](#acceso-al-proyecto)
 - [Tecnologías utilizadas](#tecnologías-utilizadas)
 - [Personas Contribuyentes](#personas-contribuyentes)
-- [Personas Desarrolladoras del Proyecto](#personas-desarrolladoras-del-proyecto)
 - [Licencia](#licencia)
 
 ## Descripción del proyecto
@@ -20,7 +19,9 @@ GuanaNet es la solución perfecta para estudiantes que buscan experiencia práct
 
 ## Estado del proyecto
 
-Aquí puedes proporcionar información sobre el estado actual del proyecto, como si está en desarrollo, en producción, o si se ha completado una versión específica.
+<h4 align="center">
+:construction: Proyecto en construcción: Prototipo v1 :construction:
+</h4>
 
 ## Características de la aplicación y demostración
 
@@ -30,20 +31,17 @@ Aquí puedes proporcionar información sobre el estado actual del proyecto, como
 - **Notificaciones Personalizadas:** Los usuarios reciben notificaciones sobre nuevas oportunidades y mensajes importantes en su bandeja de entrada.
 - **Seguridad y Privacidad:** Garantizamos la seguridad y la privacidad de los datos de nuestros usuarios mediante prácticas sólidas de protección de la información.
 
-## Acceso al proyecto
 
-Proporciona enlaces relevantes para acceder al proyecto, como enlaces a la aplicación en línea, el repositorio de GitHub, o cualquier otro recurso relacionado.
-
-## Tecnologías utilizadas
-
-Enumera las tecnologías principales utilizadas en el proyecto, como lenguajes de programación, frameworks, bases de datos, etc.
+##  🖥️ Tecnologías utilizadas 🖥️
+- Python 🐍
+- Flask 🌐
+- Scikit-learn 🧠
+- HTML5 🌐
+- CSS3 🎨
+- Bootstrap 🅱️
+- RStudio 📊
 
 ## Personas Contribuyentes
-
-Aquí puedes agradecer a las personas que han contribuido al proyecto de alguna manera, ya sea mediante código, diseño, pruebas, etc.
-
-## Personas Desarrolladoras del Proyecto
-
 - [Gustavo León](https://github.com/Acceleretta) - Desarrollador principal
 - [Emilio Pérez](https://github.com/miloperez) - Científico de Datos
 - [Itzanami Berlanga](https://github.com/Pizzanami) - Ingeniera de Datos
