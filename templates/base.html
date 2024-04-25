@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red de Empresas y Estudiantes</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='card.css') }}">
+
+    <style>
+        body {
+            padding-top: 50px;
+            margin-bottom: 370px; /* Ajuste para el footer */
+            position: relative; /* Agregado para alinear el footer animado */
+        }
+
+        footer {
+            position: fixed; /* Cambiado a fijo para mantener el footer en la parte inferior */
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .fixed-bottom {
+            display: none; /* Oculta el footer fijo */
+        }
+
+        .background {
+            position: fixed; /* Agregado para mantener el footer animado fijo */
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+    <div class="container">
+        <a class="navbar-brand text-light" href="{{ url_for('index')}}">
+            <img src="../static/logo.svg" alt="Guananet Logo" height="50">
+            GuanaNet
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="{{ url_for('index')}}">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="{{ url_for('proyectos_disponibles')}}">Proyectos Disponibles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Empresas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="container mt-md-5 mt-3">
+    <div class="row">
+        <div class="col-md-6 mb-3" style="margin-top: 100px">
+            <h2 class="mb-md-0 mb-3">Bienvenido al Networking Universitario</h2>
+        </div>
+        <div class="col-md-6">
+            <div class="card" style="margin-bottom: 180px">
+                <img src="https://www.contextonn.com/wp-content/uploads/2023/02/2-1-2.jpeg" alt="Guananet Logo">
+                <div>
+                    <h3>IA para conectar a estudiantes universitarios con empresas interesadas en ofrecer prácticas profesionales e investigación en áreas afines.</h3>
+                    <div class="btn-group" style="margin-top: 30px">
+                        <a href="{{ url_for('login')}}" class="btn btn-primary " aria-current="page">Regístrate como Estudiante</a>
+                        <a href="{{ url_for('login')}}" class="btn btn-primary ">Registra tu Empresa</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="background">
+    <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="100%"
+            height="100%"
+            viewBox="0 0 1600 900"
+    >
+        <defs>
+            <path
+                    id="wave"
+                    fill="rgba(0, 123, 255, 0.6)"
+                    d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+        s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z"
+            />
+
+        </defs>
+        <g>
+            <use xlink:href="#wave" opacity=".4">
+                <animateTransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        type="translate"
+                        dur="8s"
+                        calcMode="spline"
+                        values="270 230; -334 180; 270 230"
+                        keyTimes="0; .5; 1"
+                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                        repeatCount="indefinite"
+                />
+            </use>
+            <use xlink:href="#wave" opacity=".6">
+                <animateTransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        type="translate"
+                        dur="6s"
+                        calcMode="spline"
+                        values="-270 230;243 220;-270 230"
+                        keyTimes="0; .6; 1"
+                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                        repeatCount="indefinite"
+                />
+            </use>
+            <use xlink:href="#wave" opacty=".9">
+                <animateTransform
+                        attributeName="transform"
+                        attributeType="XML"
+                        type="translate"
+                        dur="4s"
+                        calcMode="spline"
+                        values="0 230;-140 200;0 230"
+                        keyTimes="0; .4; 1"
+                        keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                        repeatCount="indefinite"
+                />
+            </use>
+        </g>
+        <!-- Agrega el texto del footer -->
+        <text x="50%" y="95%" text-anchor="middle" fill="white">&copy; 2024 GuanaNet - Todos los derechos
+            reservados
+        </text>
+    </svg>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

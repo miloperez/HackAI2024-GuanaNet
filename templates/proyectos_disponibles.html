@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Card 4</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='card_proyectos.css') }}">
+    <style>
+        .front {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+        }
+
+        .front h3, .front h4 {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body class="bg-dark"> <!-- Aquí se aplica el fondo oscuro con la clase bg-dark -->
+<nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+    <div class="container">
+        <a class="navbar-brand text-light" href="{{ url_for('index')}}">
+            <img src="../static/logo.svg" alt="Guananet Logo" height="50">
+            Guananet
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="{{ url_for('index')}}">Inicio <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="{{ url_for('proyectos_disponibles')}}">Proyectos
+                        Disponibles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Empresas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="cards" style="margin-top: 100px">
+    <label id="summary">
+        <input type="checkbox"/>
+        <div class="card">
+            <div class="front">
+
+                <div class="company-logo">
+                    <img src="../static/logo.svg" alt="Guananet Logo" height="50">
+                </div> <!-- Aquí se colocará el logo de la empresa -->
+                <h3 style="margin-bottom: 10px;">Tejuinos</h3> <!-- Aquí se colocará el nombre de la empresa -->
+                <h4 class="small">Área: Inteligencia Artificial</h4> <!-- Aquí se colocará el área a fin -->
+            </div>
+            <div class="back">
+                <header>
+                    <span class="material-symbols-outlined"> close </span>
+                </header>
+                <p>Proyecto: GuanaNet</p> <!-- Aquí se colocará el nombre del proyecto -->
+                <p>Guanajuato</p> <!-- Aquí se colocará el lugar -->
+                <button class="btn btn-primary">Ingresar al proyecto</button> <!-- Botón para ingresar al proyecto -->
+            </div>
+        </div>
+
+    </label>
+        <label id="summary2">
+        <input type="checkbox"/>
+        <div class="card">
+            <div class="front">
+
+                <div class="company-logo">
+                    <img src="../static/logo.svg" alt="Guananet Logo" height="50">
+                </div> <!-- Aquí se colocará el logo de la empresa -->
+                <h3 style="margin-bottom: 10px;">Tejuinos</h3> <!-- Aquí se colocará el nombre de la empresa -->
+                <h4 class="small">Área: Inteligencia Artificial</h4> <!-- Aquí se colocará el área a fin -->
+            </div>
+            <div class="back">
+                <header>
+                    <span class="material-symbols-outlined"> close </span>
+                </header>
+                <p>Proyecto: GuanaNet</p> <!-- Aquí se colocará el nombre del proyecto -->
+                <p>Guanajuato</p> <!-- Aquí se colocará el lugar -->
+                <button class="btn btn-primary">Ingresar al proyecto</button> <!-- Botón para ingresar al proyecto -->
+            </div>
+        </div>
+
+    </label>
+        <label id="summary">
+        <input type="checkbox"/>
+        <div class="card">
+            <div class="front">
+
+                <div class="company-logo">
+                    <img src="../static/logo.svg" alt="Guananet Logo" height="50">
+                </div> <!-- Aquí se colocará el logo de la empresa -->
+                <h3 style="margin-bottom: 10px;">Tejuinos</h3> <!-- Aquí se colocará el nombre de la empresa -->
+                <h4 class="small">Área: Inteligencia Artificial</h4> <!-- Aquí se colocará el área a fin -->
+            </div>
+            <div class="back">
+                <header>
+                    <span class="material-symbols-outlined"> close </span>
+                </header>
+                <p>Proyecto: GuanaNet</p> <!-- Aquí se colocará el nombre del proyecto -->
+                <p>Guanajuato</p> <!-- Aquí se colocará el lugar -->
+                <button class="btn btn-primary">Ingresar al proyecto</button> <!-- Botón para ingresar al proyecto -->
+            </div>
+        </div>
+
+    </label>
+</div>
+</body>
+</html>

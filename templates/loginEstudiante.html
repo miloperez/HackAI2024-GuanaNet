@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logins</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login.css') }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #333; /* Establece el color de fondo oscuro */
+            color: #fff; /* Establece el color del texto como blanco */
+        }
+
+        .card {
+            background-color: #333; /* Establece el color de fondo de la tarjeta como negro */
+            color: #fff; /* Establece el color del texto dentro de la tarjeta como blanco */
+            border: none; /* Elimina el borde de la tarjeta */
+        }
+
+        .card h2 {
+            color: #fff; /* Establece el color del texto "Bienvenido a Guananet" como blanco */
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+    <div class="container">
+        <a class="navbar-brand text-light" href="{{ url_for('index')}}">
+            <img src="../static/logo.svg" alt="Guananet Logo" height="50">
+            GuanaNet
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-light" href="{{ url_for('index')}}">Inicio <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="{{ url_for('proyectos_disponibles')}}">Proyectos
+                        Disponibles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Empresas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="background"></div>
+<div class="card" style="margin-top: 200px">
+    <img class="logo" src="../static/logo.svg"/>
+    <h2>Bienvenido a GuanaNet</h2>
+    <form action="{{ url_for('guardar_datos') }}" method="post" class="form">
+        <input name="nombreCompleto" type="text" placeholder="Nombre Completo"/>
+        <input name="correoElectronico" type="email" placeholder="Correo electrónico"/>
+        <input name="contrasena" type="password" placeholder="Contraseña"/>
+        <input name="areaConocimiento" type="text" placeholder="Área de Conocimiento"/>
+        <input name="disciplina" type="text" placeholder="Disciplina"/>
+        <input name="subdisciplina" type="text" placeholder="Subdisciplina"/>
+        <button type="submit">Guardar</button>
+    </form>
+</div>
+</body>
+</html>
