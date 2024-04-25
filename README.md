@@ -25,12 +25,11 @@ GuanaNet es la solución perfecta para estudiantes que buscan experiencia práct
 
 ## Características de la aplicación y demostración
 
-- **Búsqueda de Oportunidades:** Los estudiantes pueden buscar y filtrar oportunidades de proyectos, empresas o investigadores según sus intereses y habilidades.
+- **Búsqueda de Oportunidades Personalizadas:** Enlaza a los estudiantes con oportunidades de proyectos hechas a su medida, según sus intereses y habilidades.
 - **Perfil Personalizado:** Los usuarios pueden crear perfiles personalizados que resalten sus habilidades, experiencia y proyectos anteriores.
 - **Conexiones Directas:** Facilitamos la comunicación entre estudiantes y profesionales a través de mensajes directos y solicitudes de conexión.
-- **Notificaciones Personalizadas:** Los usuarios reciben notificaciones sobre nuevas oportunidades y mensajes importantes en su bandeja de entrada.
 - **Seguridad y Privacidad:** Garantizamos la seguridad y la privacidad de los datos de nuestros usuarios mediante prácticas sólidas de protección de la información.
-
+- 🎥 [Video demostración del prototipo.](https://youtu.be/mYaC1d1TyYU)
 
 ##  🖥️ Tecnologías utilizadas 🖥️
 - Python 🐍
@@ -42,9 +41,35 @@ GuanaNet es la solución perfecta para estudiantes que buscan experiencia práct
 - RStudio 📊
 
 ## Personas Contribuyentes
-- [Gustavo León](https://github.com/Acceleretta) - Desarrollador principal
-- [Emilio Pérez](https://github.com/miloperez) - Científico de Datos
-- [Itzanami Berlanga](https://github.com/Pizzanami) - Ingeniera de Datos
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Acceleretta">
+        <img src="https://github.com/Acceleretta.png" width="100" style="border-radius: 50%;" alt="Gustavo León"/><br />
+      </a>
+      <sub><b><a href="https://github.com/Acceleretta">Gustavo León</a></b></sub><br />
+      <sub>Desarrollador principal</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/miloperez">
+        <img src="https://github.com/miloperez.png" width="100" style="border-radius: 50%;" alt="Emilio Pérez"/><br />
+      </a>
+      <sub><b><a href="https://github.com/miloperez">Emilio Pérez</a></b></sub><br />
+      <sub>Científico de Datos</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Pizzanami">
+        <img src="https://github.com/Pizzanami.png" width="100" style="border-radius: 50%;" alt="Itzanami Berlanga"/><br />
+      </a>
+      <sub><b><a href="https://github.com/Pizzanami">Itzanami Berlanga</a></b></sub><br />
+      <sub>Ingeniera de Datos</sub>
+    </td>
+  </tr>
+</table>
+
+
+
+
 
 ## Licencia
 
