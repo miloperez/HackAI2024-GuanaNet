@@ -73,4 +73,4 @@ GuanaNet es la solución perfecta para estudiantes que buscan experiencia práct
 
 ## Licencia
 
-Este proyecto está protegido por derechos de autor. Agrega aquí cualquier información adicional sobre la licencia del proyecto.
+Este proyecto está protegido por derechos de autor.
