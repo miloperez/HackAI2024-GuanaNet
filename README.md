@@ -44,7 +44,7 @@ GuanaNet es la solución perfecta para estudiantes que buscan experiencia práct
 <table align="center">
   <tr>
     <td align="center">
-      <a href="https://github.com/Acceleretta">
+      <a href="https://github.com/Chocotabo">
         <img src="https://github.com/Acceleretta.png" width="100" style="border-radius: 50%;" alt="Gustavo León"/><br />
       </a>
       <sub><b><a href="https://github.com/Acceleretta">Gustavo León</a></b></sub><br />
@@ -58,7 +58,7 @@ GuanaNet es la solución perfecta para estudiantes que buscan experiencia práct
       <sub>Científico de Datos</sub>
     </td>
     <td align="center">
-      <a href="https://github.com/Pizzanami">
+      <a href="https://github.com/Pitzanami">
         <img src="https://github.com/Pizzanami.png" width="100" style="border-radius: 50%;" alt="Itzanami Berlanga"/><br />
       </a>
       <sub><b><a href="https://github.com/Pizzanami">Itzanami Berlanga</a></b></sub><br />
