@@ -45,7 +45,7 @@ GuanaNet es la solución perfecta para estudiantes que buscan experiencia práct
   <tr>
     <td align="center">
       <a href="https://github.com/Chocotabo">
-        <img src="https://github.com/Acceleretta.png" width="100" style="border-radius: 50%;" alt="Gustavo León"/><br />
+        <img src="https://github.com/Chocotabo.png" width="100" style="border-radius: 50%;" alt="Gustavo León"/><br />
       </a>
       <sub><b><a href="https://github.com/Acceleretta">Gustavo León</a></b></sub><br />
       <sub>Desarrollador principal</sub>
@@ -59,7 +59,7 @@ GuanaNet es la solución perfecta para estudiantes que buscan experiencia práct
     </td>
     <td align="center">
       <a href="https://github.com/Pitzanami">
-        <img src="https://github.com/Pizzanami.png" width="100" style="border-radius: 50%;" alt="Itzanami Berlanga"/><br />
+        <img src="https://github.com/Pitzanami.png" width="100" style="border-radius: 50%;" alt="Itzanami Berlanga"/><br />
       </a>
       <sub><b><a href="https://github.com/Pizzanami">Itzanami Berlanga</a></b></sub><br />
       <sub>Ingeniera de Datos</sub>
